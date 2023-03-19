@@ -41,8 +41,8 @@ let
             ))
             sensible
           ];
-        }; 
-      };     
+        };
+      };
     };
 in
 mkShell {
@@ -51,5 +51,13 @@ mkShell {
     gopls
     overriden-neovim
     tmux
+
+    cachix
+    lorri
+    niv
+    nixfmt
+    statix
+    vulnix
+    haskellPackages.dhall-nix
   ];
 }
