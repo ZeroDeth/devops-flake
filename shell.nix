@@ -52,6 +52,10 @@ mkShell {
     overriden-neovim
     tmux
 
+    btop
+    ctop
+    gtop
+
     cachix
     lorri
     niv
